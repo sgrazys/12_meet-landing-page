@@ -1,0 +1,30 @@
+@import './variables.css';
+
+.heading-primary,
+.heading-secondary {
+	color: var(--color-dark);
+	font-weight: 900;
+}
+
+.heading-primary {
+	font-size: 4rem;
+	line-height: 1.1;
+}
+
+.heading-secondary {
+	font-size: 3.2rem;
+	line-height: 1.125;
+}
+
+.overline {
+	color: var(--color-primary-1);
+	font-size: 1.6rem;
+	font-weight: 900;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+.description-style {
+	font-size: 1.6rem;
+	line-height: 1.625;
+}
