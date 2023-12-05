@@ -45,3 +45,26 @@
 .heading-primary {
 	padding: 0 2.4rem 2.4rem;
 }
+
+.primary:link,
+.primary:visited {
+	background-color: var(--color-primary-1);
+	max-width: 19.3rem;
+	padding: 1em 2.5em;
+}
+.primary:hover,
+.primary:active {
+	background-color: var(--color-secondary-1);
+}
+
+.secondary:link,
+.secondary:visited {
+	max-width: 13.9rem;
+	background-color: var(--color-primary-2);
+	padding: 1em 1.8em;
+}
+
+.secondary:hover,
+.secondary:active {
+	background-color: var(--color-secondary-2);
+}
