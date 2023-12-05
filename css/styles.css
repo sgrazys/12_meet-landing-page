@@ -1,6 +1,11 @@
+@import './components/buttons.css';
+
 @import './utilities/base.css';
 @import './utilities/typography.css';
 @import './utilities/variables.css';
+@import './utilities/spacing.css';
+
+@import './layout/hero.css';
 
 .container-logo {
 	width: 100%;
@@ -9,4 +14,34 @@
 
 .logo {
 	margin: 4.4rem 0 5.4rem;
+}
+
+.hero-img-1 {
+	width: 100%;
+	overflow: hidden;
+}
+
+.hero-img-1::after {
+	content: '';
+	display: block;
+	background-image: url(../assets/tablet/image-hero.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 15.3rem;
+	padding: 0;
+	margin-left: -5.2%;
+	margin-right: -5.2%;
+	margin-bottom: 4.8rem;
+}
+
+.hero-content {
+	text-align: center;
+	padding: 0 2.4rem;
+	width: 100%;
+	max-width: 50rem;
+}
+
+.heading-primary {
+	padding: 0 2.4rem 2.4rem;
 }
