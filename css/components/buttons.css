@@ -4,11 +4,11 @@
 	font-weight: 900;
 	text-decoration: none;
 	color: #fff;
-	width: 100%;
 	font-size: 1.6rem;
 	line-height: 1.625;
 	border: none;
 	border-radius: 29px;
+	transition: all 0.3s;
 }
 
 .download:link,
@@ -19,9 +19,17 @@
 }
 .download:hover,
 .download:active {
+	background-color: var(--color-secondary-1);
+}
+
+.what-is-it:link,
+.what-is-it:visited {
+	max-width: 13.9rem;
+	background-color: var(--color-primary-2);
+	padding: 1em 1.8em;
 }
 
 .what-is-it:hover,
 .what-is-it:active {
-	max-width: 13.9rem;
+	background-color: var(--color-secondary-2);
 }
