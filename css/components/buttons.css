@@ -1,0 +1,27 @@
+.btn {
+	display: inline-block;
+	font-family: inherit;
+	font-weight: 900;
+	text-decoration: none;
+	color: #fff;
+	width: 100%;
+	font-size: 1.6rem;
+	line-height: 1.625;
+	border: none;
+	border-radius: 29px;
+}
+
+.download:link,
+.download:visited {
+	background-color: var(--color-primary-1);
+	max-width: 19.3rem;
+	padding: 1em 2.5em;
+}
+.download:hover,
+.download:active {
+}
+
+.what-is-it:hover,
+.what-is-it:active {
+	max-width: 13.9rem;
+}
