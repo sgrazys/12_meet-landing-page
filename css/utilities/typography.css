@@ -4,6 +4,7 @@
 .heading-secondary {
 	color: var(--color-dark);
 	font-weight: 900;
+	text-align: center;
 }
 
 .heading-primary {
@@ -27,4 +28,5 @@
 .paragraph-style {
 	font-size: 1.6rem;
 	line-height: 1.625;
+	text-align: center;
 }

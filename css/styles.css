@@ -1,11 +1,13 @@
 @import './components/buttons.css';
+@import './components/divider-grapic-element.css';
 
 @import './utilities/base.css';
 @import './utilities/typography.css';
 @import './utilities/variables.css';
 @import './utilities/spacing.css';
 
-@import './layout/hero.css';
+@import './layout/divider.css';
+@import './layout/gallery.css';
 
 .container-logo {
 	width: 100%;
@@ -35,15 +37,23 @@
 	margin-bottom: 4.8rem;
 }
 
-.hero-content {
-	text-align: center;
+.hero-content,
+.container-gallery {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	padding: 0 2.4rem;
-	width: 100%;
-	max-width: 50rem;
 }
 
 .heading-primary {
-	padding: 0 2.4rem 2.4rem;
+	margin-bottom: 2.4rem;
+}
+
+.hero-buttons {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .btn-default-1:link,
@@ -73,4 +83,23 @@
 .btn-secondary:hover,
 .btn-secondary:active {
 	background-color: #b18bdd;
+}
+
+.gallery {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	max-width: 60rem;
+	column-gap: 2.5rem;
+	row-gap: 2.4rem;
+}
+
+.item {
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.item > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }

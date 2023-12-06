@@ -1,0 +1,14 @@
+.rectangle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 5.6rem;
+	height: 5.6rem;
+	border: solid rgba(135, 135, 157, 0.25) 1px;
+	border-radius: 50%;
+}
+
+.horizontal-line {
+	border-left: solid rgba(135, 135, 157, 0.25) 1px;
+	height: 8.4rem;
+}
