@@ -5,3 +5,9 @@
 	align-items: center;
 	margin: 6.4rem 0;
 }
+
+@media (min-width: 48em) {
+	.divider {
+		margin: 8rem 0 6.7rem;
+	}
+}

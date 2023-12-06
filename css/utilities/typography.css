@@ -36,3 +36,25 @@
 	max-width: 54rem;
 	margin-bottom: 2.125em;
 }
+
+@media (min-width: 48em) {
+	.heading-primary {
+		font-size: 4.8rem;
+		line-height: 1;
+		margin-bottom: 0.5em;
+	}
+
+	.heading-secondary {
+		font-size: 4rem;
+		line-height: 1.1;
+		margin-bottom: 0.8em;
+	}
+
+	.paragraph-style {
+		margin-bottom: 2em;
+	}
+
+	.overline {
+		margin-bottom: 1.6em;
+	}
+}
