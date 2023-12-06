@@ -5,16 +5,19 @@
 	color: var(--color-dark);
 	font-weight: 900;
 	text-align: center;
+	max-width: 44.5rem;
 }
 
 .heading-primary {
 	font-size: 4rem;
 	line-height: 1.1;
+	margin-bottom: 0.6em;
 }
 
 .heading-secondary {
 	font-size: 3.2rem;
 	line-height: 1.125;
+	margin-bottom: 0.75em;
 }
 
 .overline {
@@ -23,10 +26,13 @@
 	font-weight: 900;
 	letter-spacing: 4px;
 	text-transform: uppercase;
+	margin-bottom: 1.5em;
 }
 
 .paragraph-style {
 	font-size: 1.6rem;
 	line-height: 1.625;
 	text-align: center;
+	max-width: 54rem;
+	margin-bottom: 2.125em;
 }

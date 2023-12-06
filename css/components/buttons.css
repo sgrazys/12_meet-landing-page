@@ -10,3 +10,37 @@
 	border-radius: 29px;
 	transition: all 0.3s;
 }
+
+.btn-default {
+	max-width: 19.3rem;
+	padding: 1em 2.5em;
+	margin-bottom: 0.875em;
+}
+
+.btn-1:link,
+.btn-1:visited {
+	background-color: var(--color-primary-1);
+}
+
+.btn-1:hover,
+.btn-1:active {
+	background-color: #71c0d4;
+}
+
+.btn-1 > span {
+	color: var(--color-secondary-1);
+}
+
+.btn-2:link,
+.btn-2:visited {
+	background-color: var(--color-primary-2);
+}
+
+.btn-2:hover,
+.btn-2:active {
+	background-color: #b18bdd;
+}
+
+.btn-2 > span {
+	color: var(--color-secondary-2);
+}
