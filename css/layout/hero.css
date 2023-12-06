@@ -1,5 +1,7 @@
-.hero {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+@media (min-width: 90em) {
+	.hero {
+		display: flex;
+		align-items: flex-end;
+		justify-content: space-between;
+	}
 }

@@ -8,6 +8,7 @@
 
 @import './layout/divider.css';
 @import './layout/gallery.css';
+@import './layout/hero.css';
 
 .container-logo {
 	width: 100%;
@@ -175,5 +176,41 @@
 		font-size: 1.8rem;
 		line-height: 1.444em;
 		margin-bottom: 4rem;
+	}
+
+	@media (min-width: 90em) {
+		.hero-img-1::after,
+		.hero-img-2::after {
+			content: '';
+			display: block;
+			background-repeat: no-repeat;
+			background-size: auto;
+
+			height: 35.8rem;
+			padding: 0;
+			margin-bottom: 0;
+		}
+		.hero-img-1::after {
+			background-image: url(../assets/desktop/image-hero-left.png);
+			background-position: top;
+			margin-left: -37.5%;
+		}
+
+		.hero-img-1,
+		.hero-img-2 {
+			width: 32%;
+			overflow: hidden;
+		}
+
+		.hero-img-2::after {
+			background-image: url(../assets/desktop/image-hero-right.png);
+			background-position: bottom;
+			margin-right: -34%;
+		}
+
+		.hero-content {
+			min-width: 54rem;
+			padding: 0;
+		}
 	}
 }

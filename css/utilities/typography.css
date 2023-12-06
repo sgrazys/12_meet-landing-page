@@ -57,4 +57,19 @@
 	.overline {
 		margin-bottom: 1.6em;
 	}
+
+	@media (min-width: 90em) {
+		.heading-primary {
+			font-size: 6.4rem;
+			margin-bottom: 0.5312em;
+		}
+
+		.paragraph-style {
+			font-size: 1.8rem;
+			line-height: 1.444;
+			text-align: center;
+			max-width: 54rem;
+			margin-bottom: 1.777em;
+		}
+	}
 }
