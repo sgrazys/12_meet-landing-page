@@ -11,3 +11,8 @@
 		margin: 8rem 0 6.7rem;
 	}
 }
+@media (min-width: 90em) {
+	.divider {
+		margin: 11rem 0 6.4rem;
+	}
+}

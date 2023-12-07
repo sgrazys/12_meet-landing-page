@@ -29,7 +29,7 @@
 	display: block;
 	background-image: url(../assets/tablet/image-hero.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	background-position: center;
 	height: 15.3rem;
 	padding: 0;
@@ -193,7 +193,7 @@
 		.hero-img-1::after {
 			background-image: url(../assets/desktop/image-hero-left.png);
 			background-position: top;
-			margin-left: -37.5%;
+			margin-left: -30%;
 		}
 
 		.hero-img-1,
@@ -205,12 +205,35 @@
 		.hero-img-2::after {
 			background-image: url(../assets/desktop/image-hero-right.png);
 			background-position: bottom;
-			margin-right: -34%;
+			margin-right: -27%;
 		}
 
 		.hero-content {
 			min-width: 54rem;
 			padding: 0;
+		}
+
+		.gallery {
+			margin-bottom: 8em;
+		}
+
+		.footer {
+			height: 30.4rem;
+			background-image: url(/assets/desktop/image-footer.jpg);
+		}
+
+		.footer-overlay {
+			height: 30.4rem;
+			flex-direction: row;
+			justify-content: space-between;
+			padding: 11em 16.5em;
+		}
+
+		.footer-overlay > .heading-secondary,
+		.footer-overlay > .paragraph-style {
+			text-align: left;
+			max-width: 35rem;
+			margin: 0;
 		}
 	}
 }
